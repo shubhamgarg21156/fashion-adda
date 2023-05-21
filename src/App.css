@@ -44,7 +44,7 @@ body{
 
 /* when the cart is opem */
 body.cart-open{
-  overflow: hidden;
+  overflow: hidden !important;
 }
 .products{
   display: flex;
