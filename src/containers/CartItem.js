@@ -8,7 +8,7 @@ import { decreaseQuantity, deleteProductFromCart, increaseQuantity } from "../re
 
 const CartItem = ({product}) => {
 
-  const {title,image,price,category,quantity} = product;
+  const {title,image,price,quantity} = product;
 
   const dispatch = useDispatch();
 
@@ -37,7 +37,6 @@ const CartItem = ({product}) => {
         <img className='cart-item-img' src={image} alt="item" />
         <div className='cart-item-details'>
             <h1>{title}</h1>
-            <h2>{category}</h2>
             <p>${price}</p>
             <h3>Quantity : {quantity}</h3>
         </div>

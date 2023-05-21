@@ -1,7 +1,7 @@
 .product-card{
     margin-top: 50px;
     flex:25%;
-    border:2px solid black;
+    border:2px solid var(--main-color);
     max-width: 350px;
     color:black;
 }

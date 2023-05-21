@@ -14,14 +14,10 @@ const ProductListing = () => {
                                     .catch((err)=>{
                                         console.log("Fetching Error: ",err);
                                     });
-            // console.log("Response: ", response1);
             const response2 = await axios.get("https://fakestoreapi.com/products/category/men's clothing")
                                     .catch((err)=>{
                                         console.log("Fetching Error: ",err);
-                                });
-            
-            // console.log("Response2: ", [...response.data,...response2.data]);
-    
+                                });    
             const response = [...response1.data,...response2.data]
             
             dispatch(setProducts(response));

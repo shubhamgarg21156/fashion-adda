@@ -4,7 +4,6 @@ import "../css/Hero.css";
 
 const Hero = () => {
 
-    
     function scroll() {
     window.scrollBy(0,400);
     }

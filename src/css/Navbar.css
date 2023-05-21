@@ -31,3 +31,9 @@
     right:-5px;
     color:orange;
 }
+
+@media screen and (max-width:600px){
+    .Navbar .cart-items-number{
+        margin-right: 15px;
+    }
+}

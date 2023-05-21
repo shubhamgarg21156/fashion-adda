@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Rubik:wght@400;500;600;700&display=swap');
+
 html{
   scroll-behavior: smooth;
 }
@@ -29,7 +31,8 @@ html{
 body{
   margin:0;
   padding:0;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
   scrollbar-width: thin;
 }
 
@@ -38,12 +41,17 @@ body{
   margin:0;
   padding:0;
 }
+
+/* when the cart is opem */
+body.cart-open{
+  overflow: hidden;
+}
 .products{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 0px 50px 100px 50px;
-  background-color: #FFFDD0;
+  background-color: white;
 }
 
 @media screen and (max-width:600px){
